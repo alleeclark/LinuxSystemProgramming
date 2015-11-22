@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 
-int main()
+void main()
 {
 	int fd;
 	fd = open("foo", O_WRONLY | O_CREAT, 0644);
