@@ -14,7 +14,7 @@ void main()
 		exit(1);
 	}
 	// opening a file for writing and creating if it doesnt exist
-	if ((fout = open("bar", O_WRONLY | , 0644)) < 0)
+	if ((fout = open("bar", O_WRONLY | O_CREAT, 0644)) < 0)
 	{
 		perror("bar");
 		exit(2);
