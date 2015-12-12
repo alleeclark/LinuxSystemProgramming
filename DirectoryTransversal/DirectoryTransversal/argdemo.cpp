@@ -18,7 +18,7 @@ void main(int argc, char *argv[])
 		case 'a':
 			aflag = 1;
 			break;
-		case b:
+		case 'b':
 			bflag = 1;
 			break;
 		case 'n':
@@ -27,7 +27,7 @@ void main(int argc, char *argv[])
 			case 't':
 				strcpy(txtoption, optarg);
 				break;
-				case '?'
+			case '?':
 					fprint(stdrr, "invalid option -%c\n", optopt);
 
 		}
