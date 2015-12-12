@@ -35,5 +35,8 @@
     <ClCompile Include="LSV2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="argdemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

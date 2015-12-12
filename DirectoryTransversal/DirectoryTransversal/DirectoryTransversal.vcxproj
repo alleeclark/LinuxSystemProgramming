@@ -151,6 +151,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="argdemo.cpp" />
     <ClCompile Include="directorytotal.cpp" />
     <ClCompile Include="LSV2.cpp" />
     <ClCompile Include="LsVersion.cpp" />
