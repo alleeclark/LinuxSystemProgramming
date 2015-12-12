@@ -152,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="directorytotal.cpp" />
+    <ClCompile Include="LSV2.cpp" />
     <ClCompile Include="LsVersion.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
