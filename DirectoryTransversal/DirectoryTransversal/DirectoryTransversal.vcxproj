@@ -151,10 +151,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="argdemo.cpp" />
-    <ClCompile Include="directorytotal.cpp" />
-    <ClCompile Include="LSV2.cpp" />
-    <ClCompile Include="LsVersion.cpp" />
+    <ClCompile Include="argdemo.c" />
+    <ClCompile Include="directorytotal.c" />
+    <ClCompile Include="LSV2.c" />
+    <ClCompile Include="LsVersion.c" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

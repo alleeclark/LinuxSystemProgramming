@@ -28,7 +28,7 @@ void main(int argc, char *argv[])
 				strcpy(txtoption, optarg);
 				break;
 			case '?':
-					fprint(stdrr, "invalid option -%c\n", optopt);
+					fprint(stderr, "invalid option -%c\n", optopt);
 
 		}
 	}

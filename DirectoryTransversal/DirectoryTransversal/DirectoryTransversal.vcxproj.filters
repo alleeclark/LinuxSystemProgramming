@@ -26,16 +26,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="directorytotal.cpp">
+    <ClCompile Include="argdemo.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LsVersion.cpp">
+    <ClCompile Include="directorytotal.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LSV2.cpp">
+    <ClCompile Include="LsVersion.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="argdemo.cpp">
+    <ClCompile Include="LSV2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
