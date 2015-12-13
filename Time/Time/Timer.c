@@ -16,10 +16,16 @@ int main()
 	printf("clock ticks %ld\n", sysconf(_SC_CLK_TCK)); 
 	printf("CLOCK PER SECOND %ld\n", CLOCKS_PER_SEC);
 
-	for (i = 0; i < 100000000; i++)
-	{
-		x = sqrt((double)i);
+	fd = open("/dev/null", O_RDWR);
+	for (i = 0; i < 100000000; i++) {
+		write(fd, &i, sizeof(i));
 	}
+	close(fd);
+
+	//for (i = 0; i < 100000000; i++)
+	//{
+	//	x = sqrt((double)i);
+	//}
 
 	times(&tmsbuf);
 	printf("utime = %ld\n", tmsbuf.tms_utime);
